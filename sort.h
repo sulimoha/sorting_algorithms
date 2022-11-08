@@ -30,6 +30,8 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+
 
 
 
@@ -44,6 +46,9 @@ void topdownmergesort(int *A, int *B, int n);
 void splitmerge(int *array, int *array_c, size_t size, size_t l, size_t r);
 void topdownmerge(int *array, int *array_c, size_t l, size_t m, size_t r);
 void copyarray(int *A, int iBegin, int iEnd, int *B);
+
+void swap_ints(int *a, int *b);
+void max_heapify(int *array, size_t size, size_t base, size_t root);
 
 
 #endif
